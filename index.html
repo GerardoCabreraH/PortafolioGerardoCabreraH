@@ -1,0 +1,249 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <input type="checkbox" class="responsive-menu" onclick="updatemenu()"><label></label>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <section class="hero" role="img" aria-label="Image Description">
+                <h1 class="hero-title">
+                    Portafolio Gerardo Cabrera
+                </h1>
+                <a href="downloads/Curriculum Vitae.docx" download class="hero-button">
+                    Descargar CV
+                </a>
+            </section>
+        </header>
+        <main>
+            <section id="sobre-mi" class="about-section">
+                <h2>Sobre mi</h2>
+                <div class="row-two-columns">
+                    <div class="column">
+                        <img src="img/perfil.png" alt="perfil-portafolio" class="about-img">
+                    </div>
+                    <div class="column about-text">
+                        <p>Mi nombre es Gerardo Cabrera y soy ingeniero en tecnologías computacionales graduado de la Universidad CNCI de México.
+                        Soy desarrollador frontend junior de Javascript y desarrollador backend junior en PHP. Manejo Frameworks como Laravel en
+                        el backend y VueJS en el frontend. Manejo base de datos mediante MYSQL. Hago maquetación de paginas en HTML y diseñarlas
+                        mediante CSS. También utilizo Frameworks css como Bootstrap y librerías como JQuery.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="tecnologias" class="technology-section">
+                <h2>Proceso de desarrollo web</h2>
+                <div class="row-three-columns">
+                    <div class="column">
+                        <div class="card-technology">
+                            <div class="card-technology-container">
+                                <h3><b><span class="icon-technology"><i class="fa-solid fa-desktop"></i></span></b></h3>
+                                <h3><b>Diseño UI/UX</b></h3>
+                                <p>Para crear la interfaz y experiencia de usuario, primero recojo los requisitos para la pagina web para luego darle forma al historial de usuario, luego formo diagramas de flujo, diagramas de sitio, diagramas UML y diagramas entidad-relación. Luego formo el modelado de la pagina en blanco y negro y al final le doy los colores y el prototipo de la pagina.</p>
+                                <p>Programas</p>
+                                <ul>
+                                    <li>Microsoft Visio</li>
+                                    <li>Balsamiq</li>
+                                    <li>Adobe XD</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-technology">
+                            <div class="card-technology-container">
+                                <h3><b><span class="icon-technology"><i class="fa-brands fa-html5"></i></span></b></h3>
+                                <h3><b>HTML5</b></h3>
+                                <p>Ya después de hacer el diseño UI/UX, se realiza la maquetación de la pagina web formando los encabezados, párrafos, imágenes, hipervínculos para otras paginas, tablas, entre otras formas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-technology">
+                            <div class="card-technology-container">
+                                <h3><b><span class="icon-technology"><i class="fa-brands fa-css3-alt"></i></span></b></h3>
+                                <h3><b>CSS</b></h3>
+                                <p>Luego de la maquetación, se realiza el diseño de la pagina, poniendo colores, fondos, espacios internos y externos, lineas entre otras formas. También para simplificar se puede usar Frameworks.</p>
+                                <p>Framework</p>
+                                <ul>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-technology">
+                            <div class="card-technology-container">
+                                <h3><b><span class="icon-technology"><i class="fa-brands fa-js"></i></span></b></h3>
+                                <h3><b>Javascript</b></h3>
+                                <p>Después se realiza el funcionamiento de la pagina web mediante Javascript, se puede usar el puro código que se le llama Vanilla Javascript, librerías como JQuery y para darle forma, se utiliza un Framework.</p>
+                                <p>Framework</p>
+                                <ul>
+                                    <li>VueJS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-technology">
+                            <div class="card-technology-container">
+                                <h3><b><span class="icon-technology"><i class="fa-brands fa-php"></i></span></b></h3>
+                                <h3><b>PHP</b></h3>
+                                <p>Si la pagina es dinámica, se utiliza para un lenguaje de programación en Backend para enviar un correo electrónico y/o guardar datos y esta se conecta a una base de datos. Para motivos de fortalecer la pagina, se utiliza Frameworks para buenas practicas.</p>
+                                <p>Framework</p>
+                                <ul>
+                                    <li>Laravel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-technology">
+                            <div class="card-technology-container">
+                                <h3><b><span class="icon-technology"><i class="fa-solid fa-database"></i></span></b></h3>
+                                <h3><b>MYSQL</b></h3>
+                                <p>Ahora se debe de tener de administrar una base de datos para conectarse a la pagina mediante código backend.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="proyectos" class="project-section">
+                <h2>Proyectos</h2>
+                <div class="row-three-columns">
+                    <div class="column">
+                        <div class="card-project">
+                            <img src="img/practica-html.png" alt="image-project" class="card-project-img">
+                            <div class="card-project-container">
+                                <h3><b>Pasteleria</b></h3>
+                                <p>Pagina hecha en HTML y puesta en frontend mediante VueJS como muestra y en funcionamiento de muestra backend mediante PHP Laravel.</p>
+                                <button class="button" onclick="showDialogPasteleria()">Ver</button>
+                            </div>
+                        </div>
+                        <dialog id="dialogPasteleria" class="card-project-dialog">
+                            <img src="img/practica-html.png" alt="image-project" class="card-project-img">
+                            <div class="card-project-dialog-container">
+                                <h3 class="card-project-dialog-title"><b>Pasteleria</b></h3>
+                                <p class="card-project-dialog-text"><a href="https://github.com/GerardoCabreraH/FrontEndMisionHTML">Github HTML</a></p>
+                                <p class="card-project-dialog-text"><a href="https://github.com/GerardoCabreraH/FrontEndMisionVue">Github VueJS</a></p>
+                                <p class="card-project-dialog-text"><a href="https://github.com/GerardoCabreraH/PasteleriaMonterollo">Github Laravel</a></p>
+                                <p class="card-project-dialog-text"><a href="https://pasteleria.celtech.com.mx/">Pagina muestra en Laravel</a></p>
+                                <p class="card-project-dialog-text"><a href="https://practicas.celtech.com.mx/">Pagina muestra en VueJS</a></p>
+                                <button class="button" onclick="hideDialogPasteleria()">Cerrar</button>
+                            </div>
+                        </dialog>
+                    </div>
+                    <div class="column">
+                        <div class="card-project">
+                            <img src="img/practica-css.png" alt="image-project" class="card-project-img">
+                            <div class="card-project-container">
+                                <h3><b>Vacunate</b></h3>
+                                <p>Pagina hecha en HTML y CSS y puesta en funcionamiento de demostración backend mediante PHP Laravel</p>
+                                <button class="button" onclick="showDialogVacunacion()">Ver</button>
+                            </div>
+                        </div>
+                        <dialog id="dialogVacunacion" class="card-project-dialog">
+                            <img src="img/practica-css.png" alt="image-project" class="card-project-img">
+                            <div class="card-project-dialog-container">
+                                <h3 class="card-project-dialog-title"><b>Vacunate</b></h3>
+                                <p class="card-project-dialog-text"><a href="https://github.com/GerardoCabreraH/FrontEndMisionCSS">Github HTML CSS</a></p>
+                                <p class="card-project-dialog-text"><a href="https://github.com/GerardoCabreraH/Vacunate">Github Laravel</a></p>
+                                <p class="card-project-dialog-text"><a href="https://pasteleria.celtech.com.mx/vacunas/">Pagina muestra en Laravel</a></p>
+                                <button class="button" onclick="hideDialogVacunacion()">Cerrar</button>
+                            </div>
+                        </dialog>
+                    </div>
+                    <div class="column">
+                        <div class="card-project">
+                            <img src="img/practica-javascript.png" alt="image-project" class="card-project-img">
+                            <div class="card-project-container">
+                                <h3><b>Pokedex</b></h3>
+                                <p>Pagina hecha en HTML, CSS y Javascript conectado a la API de Pokemon (PokeAPI)</p>
+                                <button class="button" onclick="showDialogPokedex()">Ver</button>
+                            </div>
+                        </div>
+                        <dialog id="dialogPokedex" class="card-project-dialog">
+                            <img src="img/practica-javascript.png" alt="image-project" class="card-project-img">
+                            <div class="card-project-dialog-container">
+                                <h3 class="card-project-dialog-title"><b>Pokedex</b></h3>
+                                <p class="card-project-dialog-text"><a href="https://github.com/GerardoCabreraH/FrontEndMisionJavaScript">Github Javascript</a></p>
+                                <p class="card-project-dialog-text"><a href="https://pasteleria.celtech.com.mx/pokedex/">Pagina muestra en Javascript</a></p>
+                                <button class="button" onclick="hideDialogPokedex()">Cerrar</button>
+                            </div>
+                        </dialog>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto" class="contact-section">
+                <h2>Contacto</h2>
+                <div class="row-five-columns">
+                    <div class="column">
+                        <div class="card-contact">
+                            <div class="card-contact-container">
+                                <h4><b><span class="icon-contact"><i class="fa-solid fa-phone"></i></span></b></h4>
+                                <h4><b>Teléfono</b></h4>
+                                <p><b><a href="tel:+58184581966">8184581966</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-contact">
+                            <div class="card-contact-container">
+                                <h4><b><span class="icon-contact"><i class="fa-solid fa-envelope"></i></span></b></h4>
+                                <h4><b>Email</b></h4>
+                                <p><b><a href="mailto:gecabrera@outlook.com">gecabrera@outlook.com</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-contact">
+                            <div class="card-contact-container">
+                                <h4><b><span class="icon-contact"><i class="fa-brands fa-github"></i></span></b></h4>
+                                <h4><b>Github</b></h4>
+                                <p><b><a href="https://github.com/GerardoCabreraH">GerardoCabreraH</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-contact">
+                            <div class="card-contact-container">
+                                <h4><b><span class="icon-contact"><i class="fa-brands fa-facebook"></i></span></b></h4>
+                                <h4><b>Facebook</b></h4>
+                                <p><b><a href="https://www.facebook.com/profile.php?id=100077113977054">Gerardo Cabrera</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card-contact">
+                            <div class="card-contact-container">
+                                <h4><b><span class="icon-contact"><i class="fa-brands fa-instagram"></i></span></b></h4>
+                                <h4><b>Instagram</b></h4>
+                                <p><b><a href="https://www.instagram.com/gerardorafaelcabrerah/">GerardoCabreraH</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>2022 Gerardo Cabrera</p>
+        </footer>
+        <script src="js/all.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
