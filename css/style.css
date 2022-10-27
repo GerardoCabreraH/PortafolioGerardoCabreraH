@@ -48,11 +48,8 @@ a:active {
 	height: 45px;
 	padding-left: 18px;
 	position: fixed;
-	/* Set the navbar to fixed position */
 	top: 0;
-	/* Position the navbar at the top of the page */
 	width: 100%;
-	/* Full width */
 }
 .menu ul, .menu li {
 	margin: 0 auto;
@@ -138,6 +135,11 @@ a:active {
     background-size: cover !important;
     background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,0.65) 100%), url('../img/hero.jpg') no-repeat center center scroll;
 }
+.buttons-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 .hero-title {
     font-style: normal;
     font-weight: bold;
@@ -152,7 +154,7 @@ a:active {
     display: inline-block;
     border: none;
     padding: 20px 30px;
-    margin: 0;
+    margin: 0 20px;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -167,6 +169,10 @@ a:active {
 .hero-button:focus {
     outline: 1px solid #fff;
     outline-offset: -4px;
+}
+.hero-button:visited {
+	background-color: #F2F2F2;
+	color: #0099CC;
 }
 
 .about-section {
@@ -286,6 +292,10 @@ a:active {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
 }
+.row-six-columns {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+}
 .card-contact {
 	background-color: #fff;
 	color: #000;
@@ -310,7 +320,16 @@ a:active {
 	text-align: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 768px) and (max-width: 1440px) { 
+	.row-two-columns {
+		grid-template-columns: auto auto;
+	}
+	.row-six-columns {
+		grid-template-columns: auto auto auto;
+	}
+}
+
+@media screen and (max-width: 767px){
 	.menu ul {
 		background:#111;
 		position:absolute;
@@ -351,11 +370,18 @@ a:active {
 	.menu input:checked ~ ul {
 		display:block
 	}
-	.row-two-columns, .row-three-columns, .row-five-columns {
+	.row-two-columns, .row-three-columns, .row-five-columns, .row-six-columns {
 		grid-template-columns: auto;
 	}
 	.contact-block {
 		display: flex;
 		flex-direction: column;
+	}
+	.buttons-group {
+		display: flex;
+		flex-direction: column;
+	}
+	.hero-button {
+		margin: 20px 0;
 	}
 }
