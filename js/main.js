@@ -30,3 +30,27 @@ function showDialogPokedex() {
 function hideDialogPokedex() {
     document.querySelector('#dialogPokedex').close();
 }
+
+function showDialogTrello() {
+    document.querySelector('#dialogTrello').showModal();
+}
+
+function hideDialogTrello() {
+    document.querySelector('#dialogTrello').close();
+}
+
+function showDialogApi() {
+    document.querySelector('#dialogApi').showModal();
+}
+
+function hideDialogApi() {
+    document.querySelector('#dialogApi').close();
+}
+
+function showDialogPrisma() {
+    document.querySelector('#dialogPrisma').showModal();
+}
+
+function hideDialogPrisma() {
+    document.querySelector('#dialogPrisma').close();
+}
